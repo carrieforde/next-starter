@@ -1,0 +1,9 @@
+language: node_js
+addons:
+  sonarcloud:
+    organization: <YOUR ORGANIZATION HERE>
+    token:
+      secure: <YOUR TOKEN HERE>
+script:
+  - yarn test
+  - sonar-scanner

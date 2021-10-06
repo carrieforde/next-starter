@@ -1,5 +1,29 @@
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
+## Project structure
+
+```
++-- /src
+    +-- /components
+    +-- /pages
+    +-- /styles
++-- /testing-utilities
++-- .editorconfig
++-- .eslintrc.json
++-- .gitignore
++-- .prettierignore
++-- .prettierrc
++-- .stylelintrc
++-- travis.yml
++-- jest.config.js
++-- next-env.d.ts
++-- package.json
++-- README.md
++-- sonar-project.properties
++-- tsconfig.json
++-- yarn.lock
+```
+
 ## Getting Started
 
 First, run the development server:

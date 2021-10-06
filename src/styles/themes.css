@@ -1,0 +1,36 @@
+:root {
+  /* Font settings */
+  --font-family-body: var(--font-sans-serif);
+
+  /* General settings */
+  --body-bg-color: #fff;
+  --text-color: var(--color-neutral-800);
+
+  /* Palette Settings */
+  --success-bg-color: var(--color-success-050);
+  --success-color: var(--color-success-800);
+  --warning-bg-color: var(--color-warning-050);
+  --warning-color: var(--color-warning-900);
+  --danger-bg-color: var(--color-danger-050);
+  --danger-color: var(--color-danger-800);
+  --info-bg-color: var(--color-info-050);
+  --info-color: var(--color-info-900);
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    /* General settings */
+    --body-bg-color: var(--color-neutral-900);
+    --text-color: var(--color-neutral-200);
+
+    /* Palette Settings */
+    --success-bg-color: var(--color-success-700);
+    --success-color: var(--color-success-050);
+    --warning-bg-color: var(--color-warning-800);
+    --warning-color: var(--color-warning-050);
+    --danger-bg-color: var(--color-danger-700);
+    --danger-color: var(--color-danger-100);
+    --info-bg-color: var(--color-info-900);
+    --info-color: var(--color-info-100);
+  }
+}

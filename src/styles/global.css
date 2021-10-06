@@ -1,0 +1,73 @@
+@media screen and (min-width: 600px) {
+  html {
+    font-size: 112.5%; /* 18px */
+  }
+}
+
+body {
+  background-color: var(--body-bg-color);
+  color: var(--text-color);
+  font-family: var(--font-family-body);
+  line-height: 1.75;
+  word-wrap: break-word;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: var(--heading-color);
+  font-weight: 600;
+  line-height: 1.1;
+  margin-bottom: var(--size-2);
+  margin-top: 0;
+}
+
+* + h1,
+* + h2,
+* + h3,
+* + h4,
+* + h5,
+* + h6 {
+  margin-top: var(--size-7);
+}
+
+p {
+  margin-bottom: 0;
+  margin-top: 0;
+}
+
+p + p {
+  margin-top: var(--size-6);
+}
+
+p + ul,
+p + ol {
+  margin-top: var(--size-4);
+}
+
+img {
+  margin-bottom: var(--size-5);
+}
+
+.tip {
+  background-color: var(--tip-bg-color);
+  color: var(--tip-color);
+}
+
+.warning {
+  background-color: var(--warning-bg-color);
+  color: var(--warning-color);
+}
+
+.danger {
+  background-color: var(--danger-bg-color);
+  color: var(--danger-color);
+}
+
+.info {
+  background-color: var(--info-bg-color);
+  color: var(--info-color);
+}
